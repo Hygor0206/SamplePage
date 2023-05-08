@@ -6,3 +6,11 @@
 
 ### At the end of the development the page need to look like the template above, simple and beauty.
 
+### All image credits
+- Beach: Karsten Winegeart
+  - Taken from: Unsplash
+-  Image1: fauxels
+- Image2: fauxels
+- Image3: LinkedIn Sales Navigator
+- Image4: Andrea Piacquadio
+  - Taken from: Pexels
