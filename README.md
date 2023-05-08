@@ -1,10 +1,8 @@
-# SamplePage
-Just a sample page
+# Just a sample page
 
-This site need to look quite the same as the template above:
+### The main objective of this project is to train and learns some new skills of web development, I need to develop the template below
 
-![alt](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
+![template](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
 
-The colors used is above too:
+### At the end of the development the page need to look like the template above, simple and beauty.
 
-![alt](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png)
