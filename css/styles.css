@@ -13,8 +13,7 @@
 .menu{
     display: flex;
     justify-content: space-around;
-    margin: 0 275px;
-    padding: 25px 0;
+    padding: 25px 300px;
     align-items: center;
 }
 
@@ -26,14 +25,43 @@
     font-size: 24px;
 }
 
-
 .menu h2{
     color: #F9FAF899;
     font-size: 18px;
-    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.content1-container{
+    display: flex;
+    align-items: center;
+    padding: 125px 300px;
 }
 
 .info h1{
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 700;
 }
+
+.info p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 15px 0;
+}
+
+.info button{
+    background-color: #3882F6;
+    font-size: 20px;
+    font-weight: 800;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin-right: auto;
+}
+
+.content1-container img{
+    height: 315px;
+    width: 700px;
+    margin-left: 100px;
+}
+
