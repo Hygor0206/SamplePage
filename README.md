@@ -9,14 +9,14 @@
 ## All image credits
 
 ### Content 1
-- Beach: Karsten Winegeart
+- Placeholder: Karsten Winegeart
   - Taken from: Unsplash
 
 ### Content 2
-- Image1: fauxels
-- Image2: fauxels
-- Image3: LinkedIn Sales Navigator
-- Image4: Andrea Piacquadio
+- Image 1: fauxels
+- Image 2: fauxels
+- Image 3: LinkedIn Sales Navigator
+- Image 4: Andrea Piacquadio
   - Taken from: Pexels
 
 ### The Template
