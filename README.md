@@ -14,3 +14,5 @@
 - Image3: LinkedIn Sales Navigator
 - Image4: Andrea Piacquadio
   - Taken from: Pexels
+- Template: The Odin Project
+  - Taken from: The Odin Project
