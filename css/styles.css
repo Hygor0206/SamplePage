@@ -5,6 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Menu Style */
 .menu-container, .content1-container{
     background-color: #1F2937;
     color: #F9FAF8;
@@ -31,6 +32,7 @@
     margin-left: 40px;
 }
 
+/* First content session style */
 .content1-container{
     display: flex;
     align-items: center;
@@ -57,11 +59,100 @@
     border-radius: 10px;
     padding: 10px 40px;
     margin-right: auto;
+    cursor: pointer;
 }
 
 .content1-container img{
     height: 315px;
     width: 700px;
     margin-left: 100px;
+}
+
+/* Second content session style */
+.content2-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 400px 150px 400px;
+}
+
+.images h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.images div{
+   text-align: center;
+   padding: 0 35px;
+}
+
+.images div p{
+    text-align: justify;
+    padding: 0 20px;
+ }
+
+.content2-container img{
+    border: solid 5px #3882F6;
+    border-radius: 15px;
+    height: auto;
+    width: 200px;
+}
+
+/* Third content session style */
+.content3-container{
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 150px 415px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.inspiring{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.content3-container strong{
+    font-size: 25px;
+    text-align: justify;
+}
+
+/* Fourth content session style */
+.content4-container{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 130px 320px;
+    border-radius: 10px;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content4-container button{
+    margin-left: auto;
+    border: #F9FAF8 3px solid;
+    background-color: transparent;
+    padding: 8px 45px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 50px 150px;
 }
 
