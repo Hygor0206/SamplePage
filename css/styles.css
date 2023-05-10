@@ -5,6 +5,16 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Hidden Scrollbar for Chrome, Safari and Opera */ 
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
 /* Menu Style */
 .menu-container, .content1-container{
     background-color: #1F2937;
@@ -14,7 +24,7 @@
 .menu{
     display: flex;
     justify-content: space-around;
-    padding: 25px 300px;
+    padding: 25px 200px;
     align-items: center;
 }
 
@@ -24,19 +34,21 @@
 
 .menu-container h1{
     font-size: 24px;
+    cursor: pointer;
 }
 
 .menu h2{
     color: #F9FAF899;
     font-size: 18px;
     margin-left: 40px;
+    cursor: pointer;
 }
 
 /* First content session style */
 .content1-container{
     display: flex;
     align-items: center;
-    padding: 125px 300px;
+    padding: 125px 200px;
 }
 
 .info h1{
@@ -47,24 +59,25 @@
 .info p{
     font-size: 18px;
     color: #E5E7EB;
-    margin: 15px 0;
+    text-align: justify;
 }
 
 .info button{
     background-color: #3882F6;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 800;
     color: #F9FAF8;
     border: none;
-    border-radius: 10px;
-    padding: 10px 40px;
+    border-radius: 8px;
+    padding: 8px 35px;
+    margin-top: 10px;
     margin-right: auto;
     cursor: pointer;
 }
 
 .content1-container img{
-    height: 315px;
-    width: 700px;
+    height: auto;
+    width: 600px;
     margin-left: 100px;
 }
 
@@ -79,7 +92,9 @@
 .images{
     display: flex;
     justify-content: space-between;
-    padding: 50px 400px 150px 400px;
+    text-align: center;
+    margin: 50px 225px 130px 225px;
+    padding: 0 75px;
 }
 
 .images h1{
@@ -87,28 +102,24 @@
     font-weight: 900;
 }
 
-.images div{
-   text-align: center;
-   padding: 0 35px;
-}
-
-.images div p{
-    text-align: justify;
-    padding: 0 20px;
- }
-
 .content2-container img{
     border: solid 5px #3882F6;
     border-radius: 15px;
     height: auto;
-    width: 200px;
+    width: 170px;
+}
+
+.content2-container p{
+    text-align: justify;
+    text-align-last: center;
+    padding: 0 35px;
 }
 
 /* Third content session style */
 .content3-container{
     background-color: #E5E7EB;
     display: flex;
-    padding: 150px 415px;
+    padding: 150px 310px;
     justify-content: flex-end;
     flex-wrap: wrap;
 }
@@ -122,13 +133,14 @@
 .content3-container strong{
     font-size: 25px;
     text-align: justify;
+    margin-right: 75px;
 }
 
 /* Fourth content session style */
 .content4-container{
     background-color: #3882F6;
     color: #F9FAF8;
-    margin: 130px 320px;
+    margin: 130px 220px;
     border-radius: 10px;
     padding: 50px 150px;
     display: flex;
@@ -148,6 +160,7 @@
     cursor: pointer;
 }
 
+/* Footer */
 footer{
     background-color: #1F2937;
     text-align: center;
