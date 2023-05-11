@@ -6,6 +6,8 @@
 
 ## At the end of the development the page need to look like the template above, simple and beauty.
 
+## [Here's the link to the page](https://hygor0206.github.io/samplepage/)
+
 ## All image credits
 
 ### Content 1
